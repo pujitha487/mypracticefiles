@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Our suite">
+   <test name="Our test">
+      <classes>
+          <class name="com.SeleniumWebDriver.Assignments.Assign21">
+          </class>
+      </classes>
+      <groups>
+         <run>
+            <include name="Gadjets"></include>
+         </run>
+      </groups>
+   </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="parameters suite">
+    <test name="parameters test">
+       
+       <classes>
+          <class name="com.TestNG.Demos.Parameterization">
+          </class>
+       </classes> 
+          <parameters>
+           <parameter name="Username"   value="admin"></parameter>
+           <parameter name="Password"   value="admin123"></parameter>
+           <parameter name="Username"   value="pujitha.sweety31@gmail.com"></parameter>
+           <parameter name="Password"   value="Sweety22dec$"></parameter>
+           <parameter name="Username"   value="student"></parameter>
+           <parameter name="Password"   value="Password123"></parameter>
+       </parameters>
+    </test>
+</suite>

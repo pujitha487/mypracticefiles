@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [parameters suite]">
+  <test thread-count="5" name="parameters test(failed)">
+    <parameter name="Username" value="student"/>
+    <parameter name="Password" value="Password123"/>
+    <classes>
+      <class name="com.TestNG.Demos.Parameterization">
+        <methods>
+          <include name="testLogin"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.TestNG.Demos.Parameterization -->
+    </classes>
+  </test> <!-- parameters test(failed) -->
+</suite> <!-- Failed suite [parameters suite] -->
